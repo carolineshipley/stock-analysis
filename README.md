@@ -1,20 +1,20 @@
 # Green Stock Analysis With VBA
 
 ## Overview of Project
-Refactor a code created to analyse green stocks daily volumes and annual return using Visual Basic for Application.
+Refactor a code created to analyze green stocks daily volumes and annual return using Visual Basic for Application.
 
 ### Purpose
-The purpose of this project is to make an efficient way to analyse the daily volumes and annual returns of multiple green stocks in 2017 and 2018. Creating a visual way to quickly identify which stocks might be a good investment or not based on annual returns.
+The purpose of this project is to make an efficient way to analyze the daily volumes and annual returns of multiple green stocks in 2017 and 2018. Creating a visual way to quickly identify which stocks might be a good investment or not based on annual returns.
 
 ## Results
-To be able to make the code more efficient a technique called refactoring was applied, which consists in restructuring an existing code to make it more efficient and maintanable.
+To be able to make the code more efficient a technique called refactoring was applied, which consists in restructuring an existing code to make it more efficient and maintainable.
 
 ### Original Code
 The original code ran multiple times to assign values one by one to the output table, which ended up taking on average 1.7 seconds to run the code for each year.
 
-This may not seem like a long time however taking into consideration the time taken was to analyse only 12 stocks, this number could be significantly higher if we increased the number of stocks to be analysed. 
+This may not seem like a long time however taking into consideration the time taken was to analyze only 12 stocks, this number could be significantly higher if we increased the number of stocks to be analyzed. 
 
-With that said is very important to refacture the code to be able to work more efficiently with the current amount of data or potentially with a higher number of data.   
+With that said is very important to refacture the code to be able to work more efficiently with the current amount of data or potentially with a higher amount of data.   
 
    
     Dim tickers(12) As String
@@ -74,7 +74,7 @@ With that said is very important to refacture the code to be able to work more e
         Cells(4 + i, 3).Value = endingPrice / startingPrice - 1
     
      
-### Refactured Code
+### Refactored Code
 To make the code more efficient I created a ticker index and 4 more arrays to improve the logic: ticker, tickerVolumes, tickerStartingPrices and tickerEndingPrices.
 
 Now the code run more efficiently gathering all the information and display on the output table only once. 
@@ -155,16 +155,16 @@ This reduced the average run time from 1.7 seconds to 0.2 seconds on average.
     Next i
 ## Summary
 ### Advantages and Disadvantages of Refactoring Code
-The main advantages of refacturing a code is that the code runs in a more organized way, it's easier to read, easier to debug and runs more efficiently. 
+The main advantage of refactoring a code is that the code runs in a more organized way, making easier to read, easier to debug and runs more efficiently. 
 
-But there's also some disavantages to this suck as the possibility of introducing bugs to the code and in some cases may cost more to refacture than to rewite the code.
+But there's also some disadvantages to this suck as the possibility of introducing bugs to the code and in some cases may cost more to refactore than to rewrite the code.
 ### Advantages and Disadvantages of Original and Refactored VBA script
-The main advantage of refacturing the code was decreasing considerable the time to run it. As mentioned above the run time went from 1.7 seconds to 0.2 seconds on average. 
+The main advantage of refactoring the code was decreasing considerable the time to run it. As mentioned above the run time went from 1.7 seconds to 0.2 seconds on average. 
 
-Below is an example of the run time for 2017 and 2018 after refacturing.
+Below is an example of the run time for 2017 and 2018 after refactoring.
 
-The disavantage encounter was getting caught up on little bugs which is very time consuming to debug when trying to change an existing code.
-#### Stock Analysis for 2017 on Refactured Code
+The disadvantage encountered was getting caught up on little bugs which is very time consuming to debug when trying to change an existing code.
+#### Stock Analysis for 2017 on Refactored Code
 ![VBA 2017 Screenshot](https://github.com/carolineshipley/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
-#### Stock Analysis for 2018 on Refactured Code
+#### Stock Analysis for 2018 on Refactored Code
 ![VBA 2018 Screenshot](https://github.com/carolineshipley/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
