@@ -165,6 +165,6 @@ Below is an example of the run time for 2017 and 2018 after refacturing.
 
 The disavantage encounter was getting caught up on little bugs which is very time consuming to debug when trying to change an existing code.
 #### Stock Analysis for 2018 on Original Code
-![VBA 2017 Screenshot](https://github.com/caseychen3605/stock-analysis/blob/master/Resources/VBA_Challenge_2017.PNG)
+![VBA 2017 Screenshot](https://github.com/carolineshipley/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
 #### Stock Analysis for 2018 on Refactured Code
-![VBA 2018 Screenshot](https://github.com/caseychen3605/stock-analysis/blob/master/Resources/VBA_Challenge_2018.PNG)
+![VBA 2018 Screenshot]()
