@@ -157,7 +157,7 @@ This reduced the average run time from 1.7 seconds to 0.2 seconds on average.
 ### Advantages and Disadvantages of Refactoring Code
 The main advantage of refactoring a code is that the code runs in a more organized way, making easier to read, easier to debug and runs more efficiently. 
 
-But there's also some disadvantages to this suck as the possibility of introducing bugs to the code and in some cases may cost more to refactore than to rewrite the code.
+But there's also some disadvantages to this such as the possibility of introducing bugs to the code and in some cases may cost more to refactore than to rewrite the code.
 ### Advantages and Disadvantages of Original and Refactored VBA script
 The main advantage of refactoring the code was decreasing considerable the time to run it. As mentioned above the run time went from 1.7 seconds to 0.2 seconds on average. 
 
