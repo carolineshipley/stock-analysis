@@ -79,7 +79,7 @@ To make the code more efficient I created a ticker index and 4 more arrays to im
 
 Now the code run more efficiently gathering all the information and display on the output table only once. 
 
-This reduced the average run time from 1.7 seconds to 0.3 seconds on average.
+This reduced the average run time from 1.7 seconds to 0.2 seconds on average.
 
     Dim tickers(12) As String
     tickers(0) = "AY"
@@ -159,7 +159,7 @@ The main advantages of refacturing a code is that the code runs in a more organi
 
 But there's also some disavantages to this suck as the possibility of introducing bugs to the code and in some cases may cost more to refacture than to rewite the code.
 ### Advantages and Disadvantages of Original and Refactored VBA script
-The main advantage of refacturing the code was decreasing considerable the time to run it. As mentioned above the run time went from 1.7 seconds to 0.3 seconds on average. 
+The main advantage of refacturing the code was decreasing considerable the time to run it. As mentioned above the run time went from 1.7 seconds to 0.2 seconds on average. 
 
 Below is an example of the run time for 2017 and 2018 after refacturing.
 
